@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'app', 
+    name: 'web', 
     build: '.',
     base: 'codemasonhq/nodejs', 
     type: 'service',
