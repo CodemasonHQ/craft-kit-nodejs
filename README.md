@@ -35,7 +35,13 @@ $ docker-compose up
 
 That's all! You're now running your Node.js application with Docker!
 
-You'll be able to access your application at http://<docker-ip>, where <docker-ip> is the boot2docker ip or localhost if you are running Docker natively.
+## Craft `--with`
+You can even swap out the default services the Craft Kit uses by using the `--with` parameter. 
+```
+$ mason craft nodejs --with="nodejs, mongodb"
+```
+- Default: nodejs
+- Available: mongodb
 
 ## Deployment
 Deploying is just as easy with [Codemason](http://codemason.io). For more detailed instructions, see our [documentation](http://codemason.io/docs/quickstart#deploy-dreams).
