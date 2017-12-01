@@ -1,6 +1,6 @@
 module.exports = {
     name: 'mongodb',
-    image: 'mongodb',
+    image: 'mongo',
     type: 'service',
     volumes: {
         './storage/data/mongodb':'/data/db'
